@@ -1,11 +1,13 @@
 Package: epxToR
 Type: Package
-Title: Import an Epidata epx file
-Version: 0.1.0
-Author: Jean Pierre Decorps
-Maintainer: <jp.decorps@epiconcept.fr>
-Description: This work is based on the previous work of David Whiting. epxToR provides
-  an easy way for importing Epidata file (.epx) and convert it to R data structures.
+Title: Import 'Epidata' xml files '.epx'
+Version: 0.1-0
+Authors@R: c(person("Jean Pierre", "Decorps", role = c("aut", "cre"),
+                     email = "jp.decorps@epiconcept.fr"),
+              person("David", "Whiting", role = "aut"))
+Author: Jean Pierre Decorps and David Whiting
+Maintainer: J.P. DECORPS <jp.decorps@epiconcept.fr>
+Description: This package provides an easy way for importing 'Epidata' file (.epx) and convert it to R data structures.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
